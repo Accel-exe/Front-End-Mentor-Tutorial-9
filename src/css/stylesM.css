@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: hsl(234, 29%, 20%);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; 
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    width: 624px;
+    height: 434px;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    border-radius: 20px;
+}
+
+.img {
+    width: 292px;
+    background-image: url(../img/illustration-sign-up-desktop.svg);
+    background-size: 270px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    width: 332px;
+    height: 434px;
+}
+
+.titleDecription {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.titleDecription h1 {
+    margin-top: 50px;
+    font-size: 38px;
+    font-weight: 700;
+    color: hsl(234, 29%, 20%);
+}
+
+.titleDecription h2 {
+    margin: 25px 0 15px 55px;
+    width: 290px;
+    font-size: 11px;
+    font-weight: 700;
+    color: hsl(235, 18%, 26%);
+    line-height: 15px;
+}
+
+.titleDecription ul {
+    margin-left: 15px;
+}
+
+.titleDecription li {
+    padding: 4px 0;
+    list-style: none;
+}
+
+.titleDecription span {
+    font-size: 12px;
+    font-weight: 700;
+    color: hsl(235, 18%, 26%);
+}
+
+.titleDecription ul img {
+    width: 12px;
+}
+
+.form {
+    margin: 20px 15%;
+
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.formName {
+    width: 269px;
+    height: 19px;
+}
+
+form span {
+    font-size: 9px;
+    font-weight: 700;
+}
+
+form #error {
+    padding-left: 127px;
+    color: red;
+}
+
+.error {
+    display: none;
+}
+
+form input {
+    margin: 8px 0;
+    padding: 10px 88px 10px 10px;
+    border: 1px solid hsl(231, 7%, 60%);
+    border-radius: 5px;
+    outline: none;
+}
+
+.fail {
+    border: 1px solid red;
+}
+
+
+
+form button {
+    margin-top: 5px;
+    background-color: hsl(234, 29%, 20%);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 38px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+form button:hover {
+    opacity: 80%;
+}
+
+
+.main2 {
+    background-color: hsl(0, 0%, 100%);
+    display: none;
+    flex-direction: row-reverse;
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.container2 {
+    width: 332px;
+    height: 434px;
+}
+
+.container2 img {
+    width: 50px;
+}
+
+.container2 h2 {
+    margin-top: 5%;
+    font-size: 45px;
+    font-weight: 700;
+    color: hsl(234, 29%, 20%);
+}
+
+.container2 p {
+    width: 250px;
+    font-size: 11px;
+    font-weight: 700;
+    color: hsl(235, 18%, 26%);
+    line-height: 16px;
+    margin: 8% 0;
+}
+
+.container2 button {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(234, 29%, 20%);
+    padding: 13px 85px;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: 400;
+    border: none;
+}
+
+.container2 a:hover {
+    opacity: 80%;
+}
